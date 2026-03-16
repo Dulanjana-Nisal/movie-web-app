@@ -13,7 +13,7 @@ function HomeSections({ loading,trendingData, hotTodayData, popularMoviesData, p
                     </div>
                     <div className="head-right">
                         <Link to='/trending'>
-                            <button>View All <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" d="M9 5l7 7-7 7"></path></svg></button>
+                            <button>View All<svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" d="M9 5l7 7-7 7"></path></svg></button>
                         </Link>
                     </div>
                 </div>

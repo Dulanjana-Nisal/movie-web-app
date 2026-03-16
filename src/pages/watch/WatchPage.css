@@ -227,12 +227,14 @@
 }
 .container .section .watch .watch-footer .details .genres{
     display: flex;
+    flex-wrap: wrap;
     justify-content: start;
     align-items: start;
-    padding-bottom: 10px;
+    padding: 10px 0;
     font-size: 14px;
-    column-gap: 10px;
+    gap: 10px;
     cursor: default;
+    margin-bottom: 20px;
 }
 .container .section .watch .watch-footer .details .genres p{
     padding: 3px 10px 5px 10px;
@@ -324,12 +326,18 @@
     }
 }
 
+@media(max-width: 630px) {
+    .container .section .watch .watch-footer .details{
+    width: 100%;
+}
+}
+
 @media(max-width: 550px){
     .container .section .watch .watch-bod{
         grid-template-columns: 1fr;
     }
     .container .section .watch .watch-body .body-stream{
-        height: 30vh;
+        height: 65vh;
     }
 }
 @media(max-width: 440px){
@@ -340,6 +348,6 @@
 
 @media(max-width: 400px){
     .container .section .watch .watch-body .body-stream{
-        height: 30vh;
+        height: 45vh;
     }
 }

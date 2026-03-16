@@ -10,7 +10,7 @@ function WatchSectionFooter({ detailsData,type,seasonId,episodeId,detilsDataEpis
                     </div>
                     <div className="data">
                         <p className="rating"><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg> {type === 'movie' ? Number(detailsData.vote_average).toFixed(1) : Number(detilsDataEpisode.vote_average).toFixed(1)}</p>
-                        <p>{detailsData.release_date && (detailsData.release_date).slice(0, 4) || detilsDataEpisode.air_date && (detilsDataEpisode.air_date)}</p>
+                        <p>{detailsData.release_date && (detailsData.release_date) || detilsDataEpisode.air_date && (detilsDataEpisode.air_date)}</p>
                     </div>
                 </div>
                 <div className="genres">

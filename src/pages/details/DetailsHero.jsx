@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 function DetailsHero({ detailsData,type,genres,id,trailer }) {
     return (
-        <div className="hero">
+        <div className="hero details-hero">
             <div className="background-img">
                 <img src={`https://image.tmdb.org/t/p/original/${detailsData.backdrop_path}`} alt="" />
             </div>
@@ -13,9 +13,12 @@ function DetailsHero({ detailsData,type,genres,id,trailer }) {
                         <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
                         <p>{Number(detailsData.vote_average).toFixed(1)}</p>
                     </div>
-                    <div className="tag-year">
-                        <p>{detailsData.release_date && (detailsData.release_date) || detailsData.last_air_date && (detailsData.last_air_date).slice(0, 4)}</p>
-                    </div>
+                    {
+                        !detailsData.release_date &&
+                        <div className="tag-year">
+                            <p>{detailsData.last_air_date && (detailsData.last_air_date).slice(0, 4)}</p>
+                        </div>
+                    }
                     <div className="tag-runtime">
                         {detailsData.runtime && <p>{detailsData.runtime} min</p> || detailsData.number_of_seasons && <p>Seasons {detailsData.number_of_seasons}</p>}
                     </div>

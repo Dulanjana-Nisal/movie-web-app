@@ -1,6 +1,18 @@
 .container .hero .banner{
     height: 80vh;
 }
+.container .hero .banner .tags{
+    width: max-content;
+    height: max-content;
+}
+
+.container .hero .banner .genres{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .hero .banner .genres p{
+    font-size: 14px;
+}
 .container .details-section{
     padding: 0;
 }
@@ -90,6 +102,11 @@
 @media(max-width: 520px){
     .container .details-section{
         padding: 20px 0;
+    }
+}
+@media(max-width: 370px){
+    .container .details-hero{
+        padding-top: 40px;
     }
 }
 

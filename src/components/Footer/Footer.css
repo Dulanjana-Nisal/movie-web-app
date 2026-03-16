@@ -156,12 +156,16 @@
 }
 
 @media (max-width: 400px){
+    .footer .footer-body{
+        grid-template-columns: 1fr 1fr;
+    }
     .footer .footer-body .logo-card{
         grid-column-start: 1;
-        grid-column-end: 4;
+        grid-column-end: 3;
     }
     .footer .footer-body .logo-card .title p{
         width: auto;
         margin-bottom: 20px;
     }
 }
+
