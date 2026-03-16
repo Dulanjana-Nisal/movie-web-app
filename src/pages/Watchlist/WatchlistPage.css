@@ -1,5 +1,6 @@
 .watchlist-card{
     height: fit-content;
+    text-align: start;
 }
 
 .container .movie-section .section-head .head-right-movie .clear-btn{
@@ -9,6 +10,7 @@
 .container .movie-section .watchlist-body{
     width: 85%;
     margin: auto;
+    text-align: center;
 }
 .container .movie-section .section-body .empty-watchlist{
     width: 85vw;
