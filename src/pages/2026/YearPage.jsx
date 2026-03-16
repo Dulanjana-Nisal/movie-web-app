@@ -52,7 +52,7 @@ function YearsPage({ localstorageData,setLocalstorageData }) {
         <>
             <Header />
             <div className="container">
-                <div className="section movie-section">
+                <div className="section movie-section year-section">
                     <YearSectionSelections
                         type={type}
                         year={year}

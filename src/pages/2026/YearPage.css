@@ -1,12 +1,12 @@
-.container .movie-section{
+.container .year-section{
     min-height: 100vh;
 }
-.container .movie-section .section-selections{
+.container .year-section .section-selections{
     width: 85%;
     margin: auto;
-    padding-top: 60px;
+    padding-top: 50px;
 }
-.container .movie-section .section-selections .selection-bar{
+.container .year-section .section-selections .selection-bar{
     max-width: 770px;
     display: flex;
     overflow: hidden;
@@ -14,7 +14,7 @@
     scrollbar-width: none;
     margin-top: 20px;
 }
-.container .movie-section .section-selections button{
+.container .year-section .section-selections button{
     padding: 10px 14px;
     border-radius: 10px;
     background: rgba(255, 255, 255, .05);
@@ -25,18 +25,18 @@
     font-weight: 500;
     transition: 0.3s;
 }
-.container .movie-section .section-selections .select{
+.container .year-section .section-selections .select{
     background-color: #ef4444;
     color: #fff;
 }
-.container .movie-section .section-selections .select:hover{
+.container .year-section .section-selections .select:hover{
     cursor: pointer;
 }
-.container .movie-section .section-selections .un-select:hover{
+.container .year-section .section-selections .un-select:hover{
     cursor: pointer;
     background-color: #a1a1aa2d;
 }
-.container .movie-section .section-head{
+.container .year-section .section-head{
     width: 85%;
     margin: auto;
     display: flex;
@@ -45,25 +45,25 @@
     column-gap: 30px;
     margin-bottom: 30px;
 }
-.container .movie-section .section-head .head-left-movie{
+.container .year-section .section-head .head-left-movie{
     padding-top: 20px;
 }
-.container .movie-section .section-head .head-left-movie h1{
+.container .year-section .section-head .head-left-movie h1{
     color: #fff;
 }
-.container .movie-section .section-head .head-left-movie p{
+.container .year-section .section-head .head-left-movie p{
     font-size: 16px;
     font-weight: 400;
     color: #a1a1aa;
     margin: 12px 0;
 }
-.container .movie-section .section-head .head-right-movie{
+.container .year-section .section-head .head-right-movie{
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 10px;
 }
-.container .movie-section .section-head .head-right-movie button{
+.container .year-section .section-head .head-right-movie button{
     padding: 10px 16px;
     padding-bottom: 12px;
     border-radius: 8px;
@@ -76,12 +76,12 @@
     color: #a1a1aa;
     backdrop-filter: blur(30px);
 }
-.container .movie-section .section-head .head-right-movie .selected{
+.container .year-section .section-head .head-right-movie .selected{
     color: #fff;
     background: linear-gradient(135deg, #ef4444, #a855f7);
     box-shadow: 0 4px 15px rgba(239, 68, 68, .4);
 }
-.container .movie-section .section-head .head-right-movie button:hover,
+.container .year-section .section-head .head-right-movie button:hover,
 .container .section-footer button:hover{
     background-color: rgba(187, 182, 182, 0.116);
     cursor: pointer;

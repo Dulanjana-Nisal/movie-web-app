@@ -4,13 +4,14 @@
 .container .movie-section .section-head{
     width: 85%;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     column-gap: 30px;
     margin-bottom: 30px;
 }
+
 .container .movie-section .section-head .head-left-movie{
     padding-top: 5%;
 }

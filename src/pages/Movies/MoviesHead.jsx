@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 function MoviesHead({ title,page,listParem }) {
     return (
-        <div className="section-head">
+        <div className="section-head movie-section-head">
             <div className="head-left-movie">
                 <h1>{title} Movies</h1>
                 <p>{`Page ${page} of 500`}</p>
